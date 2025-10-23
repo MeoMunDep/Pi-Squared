@@ -1,0 +1,24 @@
+{
+  "proxyMode": "static",
+  "skipInvalidProxy": false,
+  "delayEachAccount": [1, 1],
+  "timeToRestartAllAccounts": 300,
+  "howManyAccountsRunInOneTime": 1,
+
+  "stopOnExpiredTokens": false,
+
+  "doTasks": true,
+
+  "clickGame": {
+    "enable": true,
+    "processLog": true,
+    "amountOfGames": 50
+  },
+
+  "explorerLink": true,
+  "faucetNative": true,
+  "faucetTokens": true,
+  "newWalletCount": 1,
+  "sendFromTempWalletsToThisAccount": true,
+  "transferToRandomWallets": true
+}
