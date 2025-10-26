@@ -176,6 +176,3 @@ chmod +x run.sh
 ⚠️ **Disclaimer**: This code is provided "as is" without any warranties. Use it at your own risk. You are solely responsible for any consequences arising from its use. Redistribution or sale of this code in any form is strictly prohibited.
 
 ✨ Thank you for using the bot, hope you earn from my scripts! Good luck! 🚀
-
-
-<p align="center"><a href="#bot-setup-instructions">⬆️ Back to top</a></p>
