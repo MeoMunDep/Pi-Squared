@@ -96,6 +96,8 @@ Set up the following files **before running the bot** (details below):
 <details>
 <summary>🗂️ 2. privateKeys.txt - Wallet List</summary>
 
+📥 [Generate wallets here](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
+
 Each line is one private key:
 
 ```
