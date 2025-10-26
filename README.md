@@ -1,4 +1,4 @@
-# 🚀 Bot Setup Instructions
+#🚀 Bot Setup Instructions
 
 Welcome to the bot setup guide! This guide is designed to be beginner-friendly — just **follow the steps**, and your bot will be ready to run with **minimal terminal use**.
 
