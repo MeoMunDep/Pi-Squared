@@ -1,4 +1,4 @@
-#🚀 Bot Setup Instructions
+# 🚀 Bot Setup Instructions
 
 Welcome to the bot setup guide! This guide is designed to be beginner-friendly — just **follow the steps**, and your bot will be ready to run with **minimal terminal use**.
 
@@ -178,4 +178,4 @@ chmod +x run.sh
 ✨ Thank you for using the bot, hope you earn from my scripts! Good luck! 🚀
 
 
-<p align="center"><a href="#Bot-Setup-Instructions">⬆️ Back to top</a></p>
+<p align="center"><a href="#bot-setup-instructions">⬆️ Back to top</a></p>
