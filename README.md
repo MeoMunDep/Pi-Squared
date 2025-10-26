@@ -178,4 +178,4 @@ chmod +x run.sh
 ✨ Thank you for using the bot, hope you earn from my scripts! Good luck! 🚀
 
 
-<p align="center"><a href="#-discord-automation-bot-by-meomundep">⬆️ Back to top</a></p>
+<p align="center"><a href="#Bot-Setup-Instructions">⬆️ Back to top</a></p>
