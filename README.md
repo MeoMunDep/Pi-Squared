@@ -47,6 +47,7 @@ cd pisquared
 Set up the following files **before running the bot** (details below):
 
 - `configs.json`
+- `datas.txt`
 - `privateKeys.txt`
 - `proxies.txt` (optional)
 
@@ -119,6 +120,21 @@ Supported formats:
 host:port
 protocol://host:port
 protocol://user:pass@host:port
+```
+
+</details>
+
+<details>
+<summary>🗂️ 4. datas.txt </summary>
+
+💡 [Get data from here](https://t.me/KeoAirDropFreeNee/1960)
+
+Supported formats:
+
+```
+...
+...
+...
 ```
 
 </details>
