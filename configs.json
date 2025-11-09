@@ -3,7 +3,7 @@
   "skipInvalidProxy": false,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 86400,
-  "howManyAccountsRunInOneTime": 10,
+  "howManyAccountsRunInOneTime": 1,
 
   "stopOnExpiredTokens": false,
 
@@ -22,7 +22,6 @@
   },
 
   "explorerLink": true,
-  "faucetNative": true,
   "faucetTokens": true,
   "newWalletCount": 1,
   "sendFromTempWalletsToThisAccount": true,
