@@ -85,7 +85,6 @@ Set up the following files **before running the bot** (details below):
   },
 
   "explorerLink": true,
-  "faucetNative": true,
   "faucetTokens": true,
   "newWalletCount": 1,
   "sendFromTempWalletsToThisAccount": true,
