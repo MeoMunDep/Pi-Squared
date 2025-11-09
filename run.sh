@@ -98,7 +98,6 @@ create_default_configs() {
   },
 
   "explorerLink": true,
-  "faucetNative": true,
   "faucetTokens": true,
   "newWalletCount": 1,
   "sendFromTempWalletsToThisAccount": true,
