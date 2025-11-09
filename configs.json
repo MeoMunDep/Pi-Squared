@@ -2,8 +2,8 @@
   "proxyMode": "static",
   "skipInvalidProxy": false,
   "delayEachAccount": [1, 1],
-  "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 1,
+  "timeToRestartAllAccounts": 86400,
+  "howManyAccountsRunInOneTime": 10,
 
   "stopOnExpiredTokens": false,
 
@@ -13,6 +13,10 @@
     "enable": true,
     "processLog": true,
     "amountOfGames": 50
+  },
+
+  "swarmSurvivor": {
+    "enable": true
   },
 
   "explorerLink": true,
