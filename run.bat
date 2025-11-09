@@ -24,7 +24,6 @@ if not exist configs.json (
     echo   "processLog": true,>> configs.json
     echo   "amountOfGames": 50>> configs.json
     echo   },>> configs.json
-    echo   "faucetNative": true,>> configs.json
     echo   "faucetTokens": true,>> configs.json
     echo   "newWalletCount": 1,>> configs.json
     echo   "sendFromTempWalletsToThisAccount": true,>> configs.json
