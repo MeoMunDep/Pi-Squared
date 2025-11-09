@@ -65,8 +65,10 @@ Set up the following files **before running the bot** (details below):
   "proxyMode": "static",
   "skipInvalidProxy": false,
   "delayEachAccount": [1, 1],
-  "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 1,
+  "timeToRestartAllAccounts": 86400,
+  "howManyAccountsRunInOneTime": 10,
+
+  "stopOnExpiredTokens": false,
 
   "doTasks": true,
 
@@ -76,9 +78,16 @@ Set up the following files **before running the bot** (details below):
     "amountOfGames": 50
   },
 
+  "swarmSurvivor": {
+    "enable": true,
+    "processLog": true,
+    "amountOfGames": 50
+  },
+
   "explorerLink": true,
   "faucetNative": true,
   "faucetTokens": true,
+  "newWalletCount": 1,
   "sendFromTempWalletsToThisAccount": true,
   "transferToRandomWallets": true
 }
