@@ -78,14 +78,20 @@ create_default_configs() {
   "proxyMode": "static",
   "skipInvalidProxy": false,
   "delayEachAccount": [1, 1],
-  "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 1,
+  "timeToRestartAllAccounts": 86400,
+  "howManyAccountsRunInOneTime": 10,
 
   "stopOnExpiredTokens": false,
 
   "doTasks": true,
 
   "clickGame": {
+    "enable": true,
+    "processLog": true,
+    "amountOfGames": 50
+  },
+
+  "swarmSurvivor": {
     "enable": true,
     "processLog": true,
     "amountOfGames": 50
