@@ -16,7 +16,9 @@
   },
 
   "swarmSurvivor": {
-    "enable": true
+    "enable": true,
+    "processLog": true,
+    "amountOfGames": 50
   },
 
   "explorerLink": true,
