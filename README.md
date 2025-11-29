@@ -92,13 +92,26 @@ Set up the following files **before running the bot** (details below):
 }
 ```
 
-| Field                         | Type    | Description                                                       |
-| ----------------------------- | ------- | ----------------------------------------------------------------- |
-| `proxyMode`                   | string  | Proxy usage mode.                                                 |
-| `skipInvalidProxy`            | boolean | Skip and ignore any proxy that fails.                             |
-| `delayEachAccount`            | array   | Delay between each account in **seconds** (random within range).  |
-| `timeToRestartAllAccounts`    | number  | Restart bot process after this many seconds (use `0` to disable). |
-| `howManyAccountsRunInOneTime` | number  | Max number of accounts running in parallel.                       |
+| Field                              | Type    | Description                                                                 |
+| ---------------------------------- | ------- | --------------------------------------------------------------------------- |
+| `proxyMode`                        | string  | Proxy usage mode (`static`, `rotate`, etc.).                                |
+| `skipInvalidProxy`                 | boolean | Skip and ignore any proxy that fails.                                       |
+| `delayEachAccount`                 | array   | Delay between each account in **seconds** (random within the range).        |
+| `timeToRestartAllAccounts`         | number  | Restart bot after this many seconds (use `0` to disable).                   |
+| `howManyAccountsRunInOneTime`      | number  | Maximum number of accounts running at the same time.                        |
+| `stopOnExpiredTokens`              | boolean | Stop execution if token of any account is expired.                          |
+| `doTasks`                          | boolean | Whether to perform available tasks.                                         |
+| `clickGame.enable`                 | boolean | Enable the Click Game feature.                                              |
+| `clickGame.processLog`             | boolean | Show logs while processing Click Game.                                      |
+| `clickGame.amountOfGames`          | number  | Number of Click Game runs per account.                                      |
+| `swarmSurvivor.enable`             | boolean | Enable the Swarm Survivor game.                                             |
+| `swarmSurvivor.processLog`         | boolean | Show logs while processing Swarm Survivor.                                  |
+| `swarmSurvivor.amountOfGames`      | number  | Number of Swarm Survivor runs per account.                                  |
+| `explorerLink`                     | boolean | Enable showing blockchain explorer links.                                   |
+| `faucetTokens`                     | boolean | Auto-claim or handle faucet tokens.                                         |
+| `newWalletCount`                   | number  | Number of new wallets to generate.                                          |
+| `sendFromTempWalletsToThisAccount` | boolean | Send tokens from temporary wallets back to the main account.                |
+| `transferToRandomWallets`          | boolean | Transfer tokens to random wallets for distribution / anti-pattern behavior. |
 
 </details>
 
